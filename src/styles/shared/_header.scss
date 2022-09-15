@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0 21px 0;
+
+  &-icon{
+    margin-left: 46px;
+  }
+
+  &-navbar {
+
+    &-element {
+      margin-right: 46px;
+    }
+  }
+}

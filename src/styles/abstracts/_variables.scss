@@ -1,0 +1,14 @@
+$text-font-stack: 'Beleza', sans-serif !default;
+
+$colors: (
+  'primery': #F04E37,
+  'secondary': #F1F1F1,
+  'secondary-lighter': #F9F9F9,
+);
+
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+

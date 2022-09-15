@@ -1,0 +1,31 @@
+@import '../abstracts/functions';
+
+.secondary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: color('secondary');
+
+  &-category{
+    margin-left: 46px;
+    text-transform: uppercase;
+  }
+  &-country {
+    margin-right: 46px;
+  }
+  &-search {
+    position: relative;
+    .search-icon {
+      position: absolute;
+      top: 11px;
+      right: 15px;
+    }
+    input {
+      height: 46px;
+      width: 587px;
+      border: none;
+      background-color: color('secondary-lighter');
+      padding: 0 20px;
+    }
+  }
+}
